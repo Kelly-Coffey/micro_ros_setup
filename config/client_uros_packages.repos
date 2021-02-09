@@ -1,29 +1,29 @@
 repositories:
   eProsima/Micro-CDR:
     type: git
-    url: https://github.com/eProsima/Micro-CDR.git
+    url: https://github.com/Kelly-Coffey/Micro-CDR.git
     version: foxy
   eProsima/Micro-XRCE-DDS-Client:
     type: git
-    url: https://github.com/eProsima/Micro-XRCE-DDS-Client.git
+    url: https://github.com/Kelly-Coffey/Micro-XRCE-DDS-Client.git
     version: foxy
 
 # MicroROS
   uros/rcl:
     type: git
-    url: https://github.com/micro-ROS/rcl
+    url: https://github.com/Kelly-Coffey/rcl
     version: foxy
   uros/rclc:
     type: git
-    url: https://github.com/micro-ROS/rclc
+    url: https://github.com/Kelly-Coffey/rclc
     version: master
   uros/rcutils:
     type: git
-    url: https://github.com/micro-ROS/rcutils
+    url: https://github.com/Kelly-Coffey/rcutils
     version: foxy
   uros/micro_ros_msgs:
     type: git
-    url: https://github.com/micro-ROS/micro_ros_msgs.git
+    url: https://github.com/Kelly-Coffey/micro_ros_msgs.git
     version: foxy
   uros/rmw_microxrcedds:
     type: git
@@ -31,11 +31,11 @@ repositories:
     version: foxy
   uros/rosidl_typesupport:
     type: git
-    url: https://github.com/micro-ROS/rosidl_typesupport.git
+    url: https://github.com/Kelly-Coffey/rosidl_typesupport.git
     version: foxy
   uros/rosidl_typesupport_microxrcedds:
     type: git
-    url: https://github.com/micro-ROS/rosidl_typesupport_microxrcedds.git
+    url: https://github.com/Kelly-Coffey/rosidl_typesupport_microxrcedds.git
     version: foxy
   uros/tracetools:
     type: git
