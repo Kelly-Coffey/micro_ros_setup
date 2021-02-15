@@ -1,5 +1,4 @@
-
-EXTENSIONS_DIR=$FW_TARGETDIR/freertos_apps/microros_nucleo_f446ze_extensions
+EXTENSIONS_DIR=$FW_TARGETDIR/freertos_apps/microros_nucleo_f446re_extensions
 
 . $PREFIX/config/utils.sh
 
@@ -13,7 +12,7 @@ echo $CONFIG_NAME > $FW_TARGETDIR/APP
 if [ "$UROS_TRANSPORT" == "serial" ]; then
       echo "Using serial device USART."
 
-      echo "Please check firmware/freertos_apps/microros_nucleo_f446ze_extensions/Src/main.c"
+      echo "Please check firmware/freertos_apps/microros_nucleo_f446re_extensions/Core/Src/freertos.c"
       echo "for configuring serial device before build."
 
       update_meta "microxrcedds_client" "UCLIENT_PROFILE_CUSTOM_TRANSPORT=ON"
