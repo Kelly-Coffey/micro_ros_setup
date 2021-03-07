@@ -1,9 +1,5 @@
 repositories:
   freertos_apps:
     type: git
-<<<<<<< HEAD
     url: https://github.com/Kelly-Coffey/freertos_apps
-=======
-    url: https://github.com/micro-ROS/freertos_apps
->>>>>>> 5661d55b8d0673a2888520d4868eeb5441a1cca5
     version: foxy
